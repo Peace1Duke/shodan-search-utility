@@ -52,8 +52,6 @@ def exit():
 	answ = str(input(f"""{cy}>Do you want to exit?(y/different key): """))
 	if answ.lower() in ['y', 'yes']:
 		sys.exit()
-	else: 
-		...
 
 
 #the actual search function
@@ -74,7 +72,7 @@ def search(arg):
 				print('')
 		exit()
 	except shodan.APIError:
-		print('Api Error ')
+		print(f"""{re}Api Error """)
 		exit()
 
 
