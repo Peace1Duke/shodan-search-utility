@@ -67,7 +67,7 @@ def search(arg):
 		results = api.search(arg)
 
         # Show the results
-                print('Results found: {}'.format(results['total']))
+                #print('Results found: {}'.format(results['total']))
 		for result in results['matches']:
 				print('IP: {}'.format(result['ip_str']))
 				print(result['data'])
@@ -140,8 +140,9 @@ def key_shodan():
 			shodan_init()
 		else: 
 			shodan_init()
-
-
+#voobshche ne imeyu predstavleniya chego ono tam ne furichit s camerami i ftp
+#predpolozhitelno oshibka v vizove api ili ehche chego
+#cheknu zavtra, a ne segodnya s telefona
 
     
 
