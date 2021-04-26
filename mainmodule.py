@@ -1,5 +1,6 @@
 from sys import platform
 from shodan import Shodan
+import shodan
 import os
 
 re="\033[1;31m"
@@ -72,7 +73,7 @@ def search(arg):
 				print(result['data'])
 				print('')
 		exit()
-	except Shodan.APIError:
+	except shodan.APIError:
 		print('Api Error ')
 		exit()
 
