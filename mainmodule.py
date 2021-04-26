@@ -52,7 +52,7 @@ def exit():
 	if answ.lower() in ['y', 'yes']:
 		sys.exit()
 	else: 
-		shodan_init()
+		...
 
 
 #the actual search function
