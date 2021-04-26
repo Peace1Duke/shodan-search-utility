@@ -67,6 +67,7 @@ def search(arg):
 		results = api.search(arg)
 
         # Show the results
+                print('Results found: {}'.format(results['total']))
 		for result in results['matches']:
 				print('IP: {}'.format(result['ip_str']))
 				print(result['data'])
