@@ -1,4 +1,5 @@
 from sys import platform
+import sys
 from shodan import Shodan
 import shodan
 import os
