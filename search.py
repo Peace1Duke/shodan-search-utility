@@ -5,10 +5,9 @@ import mainmodule
 from shodan import Shodan
 
 mainmodule.banner()
+mainmodule.checkOS()
 
 while True:
-	mainmodule.checkOS()
-
 	mainmodule.key_shodan()
 
 	mainmodule.list()
